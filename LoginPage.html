@@ -2,7 +2,7 @@
 <html>
 <head>
    
-    <title>Sign-up Page</title>
+    <title>Login Page</title>
     <style>
         
         
@@ -33,6 +33,7 @@
             background-color: tomato;
             color: white;
             border: none;
+        
             font-size: 16px;
             cursor: pointer;
             border-radius: 7px;
@@ -40,7 +41,7 @@
         button:hover {
             background-color: rgba(222, 0, 0, 1);
         }
-
+     
         .link1 {
             width: 100%;
             padding: 10px;
@@ -49,43 +50,27 @@
             border: none;
             border-radius: 5px;
         }
-        
-
     </style>
 </head>
 <body>
     <div>
-        <h2>Sign-up</h2>
-        <a>
-
-            <label for="FName">First Name</label>
-            <input type="text" id="lbl">
-
-            <label for="LName">Last Name</label>
-            <input type="text" id="lbl">
-
-            <label for="PhoneNumber">Phone Number</label>
-            <input type="text" id="lbl">
-
-            
-
-            <label>Username</label>
-            <input type="text" id="lbl">
+        <h2>Login</h2>
+        <form id="loginForm">
+            <label for="username">Username</label>
+            <input type="text" id="username">
 
             <label for="password">Password</label>
             <input type="password" id="password">
 
-            <button type="button">Sign-up</button>
+            <a href="News.html"><button type="button">Login</button></a>
             
-            
+            <br>
+            <h5>Or SignUp</h5>
+            <a href="SignInPage.html" class="link1">Sign-up</a>
         </form>
-        <br>
-        <h5>Or Login</h5>
-        <a href="LoginPage.html" class="link1">Login</a>
-      
-        
-
     </div>
+
+
     
-    </body>
-    </html>
+</body>
+</html>
